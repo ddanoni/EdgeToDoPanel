@@ -1,2 +1,26 @@
 # EdgeToDoPanel
-A Windows edge-panel style schedule manager for quick access to tasks, reminders, recurring events, and daily planning.
+
+Windows에서 일정, 반복 일정, 알림, 출퇴근 확인, 바탕화면 위젯을 빠르게 관리하는 EdgeTodoPanel의 **공개 배포 저장소**입니다.
+
+## 다운로드 및 업데이트
+
+- 최신 설치 파일과 ZIP은 [Releases](../../releases/latest)에서 받습니다.
+- 설치된 앱은 설정된 공개 Release를 하루 한 번 확인할 수 있습니다.
+- 새 버전은 알림으로만 안내하며, 사용자가 승인한 경우에만 SHA-256 검증 후 설치 프로그램을 실행합니다.
+- v0.1.4는 최초 공개 배포 버전입니다.
+
+## 포함 범위
+
+이 저장소는 설치 안내, 변경 내역, 보안 안내 및 GitHub Releases용 배포 창구입니다. 애플리케이션 소스 코드, 개발 도구, 테스트 자료, 사용자 데이터, 설정, 인증 정보는 공개하거나 업로드하지 않습니다.
+
+## 데이터와 보안
+
+일정과 설정은 사용자 PC의 앱 데이터 폴더에 보관됩니다. 업데이트 설치는 사용자 데이터를 삭제하거나 초기화하지 않습니다. 출퇴근 및 공휴일 API와 관련된 민감한 설정은 사용자 로컬 환경에서만 관리해야 합니다.
+
+보안 취약점 신고 방식은 [SECURITY.md](SECURITY.md)를 확인하세요.
+
+## 권리 고지
+
+Copyright © EdgeTodoPanel contributors. All rights reserved.
+
+이 저장소에는 오픈소스 라이선스가 부여되지 않습니다. 소스 코드의 공개, 재배포 또는 사용 권한을 의미하지 않으며, 제공되는 설치 파일은 본 저장소의 Release 안내에 따라 사용할 수 있습니다.
